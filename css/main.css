@@ -15,3 +15,35 @@ body {
     text-transform: uppercase;
     font-size: 20px;
 }
+
+/* BLOCK STYLING */
+
+.block {
+    outline: 1px dashed hsl(322,100%,35%);
+    float: left;
+    box-sizing: border-box;
+    width: 400px;
+}
+
+.small-block {
+    height: 210px;
+    padding: 20px 40px;
+}
+
+.large-block {
+    height: 430px;
+    padding: 70px 40px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+ul li {
+    list-style: none;
+    padding-right: 25px;
+}
