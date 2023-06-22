@@ -43,7 +43,24 @@ body {
     text-align: right;
 }
 
-ul li {
-    list-style: none;
-    padding-right: 25px;
+.corner {
+    background-color: hsl(0,0%,100%);
+}
+
+.main-focus {
+    background-color: hsl(0,0%,23%);
+}
+
+/* TEXT STYLING */
+
+.highlight {
+    background-color: hsl(56,100%,65%);
+    font-size: 18px;
+    padding: 3px 10px;
+}
+
+strong {
+    font-size: 38px;
+    line-height: 38px;
+    text-transform: capitalize;
 }
